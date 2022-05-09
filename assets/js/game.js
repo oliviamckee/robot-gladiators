@@ -104,8 +104,6 @@ var startGame = function() {
     endGame();
 };
 
-//start the game when the page loads 
-startGame(); 
 
 //funtion to end the entire game
 var endGame = function() {
@@ -127,3 +125,6 @@ var endGame = function() {
         window.alert("Thank you for playing Robot Gladiators! Come back soon!");
     }
 };
+
+//start the game when the page loads 
+startGame(); 
